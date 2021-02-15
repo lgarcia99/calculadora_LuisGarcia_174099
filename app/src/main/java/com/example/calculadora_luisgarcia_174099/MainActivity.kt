@@ -7,7 +7,7 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
-    val resultado: TextView = (findViewById(R.id.output)) as TextView
+    /*val resultado: TextView = (findViewById(R.id.output)) as TextView
     val entrada: TextView = (findViewById(R.id.input)) as TextView
     val boton0: Button = (findViewById(R.id.boton0)) as Button
     val boton1: Button = (findViewById(R.id.boton1)) as Button
@@ -24,13 +24,13 @@ class MainActivity : AppCompatActivity() {
     val botonPor: Button = (findViewById(R.id.botonPor)) as Button
     val botonEntre: Button = (findViewById(R.id.botonEntre)) as Button
     val botonResult: Button = (findViewById(R.id.botonResult)) as Button
-    val botonBorrar: Button = (findViewById(R.id.botonBorrar)) as Button
+    val botonBorrar: Button = (findViewById(R.id.botonBorrar)) as Button*/
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        boton0.setOnClickListener {
+        /*boton0.setOnClickListener {
             if (!(entrada.text == "0")) {
                 entrada.setText("" + entrada.text + 0)
             }
@@ -54,6 +54,6 @@ class MainActivity : AppCompatActivity() {
 
         /*fun devolverOperacion(): String {
             return resultado.text[resultado.text.length-1].toString()
-        }*/
+        }*/*/
     }
 }
